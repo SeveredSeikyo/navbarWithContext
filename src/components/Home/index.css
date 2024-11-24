@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home img {
+  height: 200px;
+}
+
+.home-light {
+  background-color: white;
+}
+
+.home-dark {
+  background-color: black;
+  color: white;
+}

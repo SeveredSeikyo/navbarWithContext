@@ -1,0 +1,43 @@
+/* Write your CSS here */
+button {
+  border: none;
+  background: none;
+}
+
+.navbar-light {
+  background-color: white;
+  color: #171f46;
+}
+
+.navbar-dark {
+  background-color: #333333;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 0px 40px;
+  border-bottom: 1px solid #333333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.notfound img {
+  height: 200px;
+}
+
+.notfound-light {
+  background-color: white;
+}
+
+.notfound-dark {
+  background-color: black;
+  color: white;
+}
